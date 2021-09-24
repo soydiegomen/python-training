@@ -22,7 +22,7 @@ def do_something_cool():
     else:
         print('No, 27 is not in the list')
     
-    #Find some one
+    #Find someone
     #list_result = [person for person in persons if person['age'] >= 22]
     list_result = [person for person in persons if person['name'] == 'Maria']
     print('#Find Item', list_result)
